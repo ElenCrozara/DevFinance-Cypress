@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 describe('Transações', () => {
 
     beforeEach(() => {
@@ -15,7 +17,7 @@ describe('Transações', () => {
 
     it('Excluindo uma saída', () => {
         criarTransacao('mercado', -50)
-        cy.get('.description').should('be.visible')
+        cy.contains('.description', 'mercado').should('be.visible')
         cy.get(' td img').click()
     });
 
