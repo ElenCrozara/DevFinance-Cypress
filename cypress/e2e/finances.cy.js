@@ -19,6 +19,7 @@ describe('Transações', () => {
         criarTransacao('mercado', -50)
         cy.contains('.description', 'mercado').should('be.visible')
         cy.get(' td img').click()
+        //cy.contains('.description', 'frela').parente().find('img').click()
     });
 
     it('Validando o total', () => {
