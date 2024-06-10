@@ -42,8 +42,7 @@ cd cypress-ui-automation
    
    
 
-📚 Como Contribuir
-Contribuições são super bem-vindas! Aqui estão algumas maneiras pelas quais você pode contribuir:
+📚 Contribuições são super bem-vindas! Aqui estão algumas maneiras pelas quais você pode contribuir:
 
 1. Fork o Repositório: Clique no botão fork no topo desta página.
 
