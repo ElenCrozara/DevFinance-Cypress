@@ -1,23 +1,28 @@
-Cypress UI Automation Project
+
 🎉 Bem-vindo ao Projeto de Automação de UI com Cypress! 🎉
 
 Este projeto foi criado para testar uma aplicação de controle financeiro utilizando Cypress. O objetivo é garantir a qualidade e a funcionalidade da aplicação por meio de testes automatizados. Desenvolvido com foco em treinamento de automação, este projeto oferece uma excelente oportunidade para praticar e aprimorar habilidades em automação de testes.
 
-📋 Descrição do Projeto
+
+📋 Descrição do Projeto:
 
 Versão do Cypress: 10.11.0
 
-URL da Aplicação Testada
+URL da Aplicação Testada: Dev Finance
 
-URL: Dev Finance
 
-🌟 Fluxo de Testes
-Os seguintes fluxos foram testados na aplicação:
 
-Cadastrando Primeira Entrada
-Cadastrando Primeira Saída
-Excluindo uma Saída
+🌟 Fluxo de Testes:
+
+Cadastrando Primeira Entrada,
+
+Cadastrando Primeira Saída,
+
+Excluindo uma Saída,
+
 Criando Várias Transações
+
+
 
 🚀 Instruções para Configuração
 
@@ -34,26 +39,30 @@ cd cypress-ui-automation
    
 3. Execute os testes:
    npx cypress run
+   
+   
 
 📚 Como Contribuir
 Contribuições são super bem-vindas! Aqui estão algumas maneiras pelas quais você pode contribuir:
 
-Fork o Repositório: Clique no botão fork no topo desta página.
+1. Fork o Repositório: Clique no botão fork no topo desta página.
 
-Clone o Fork: Clone seu fork localmente.
+2. Clone o Fork: Clone seu fork localmente.
 
-Crie uma Branch:
+3. Crie uma Branch:
 git checkout -b feature/nome-da-feature
 
-Faça as Suas Modificações: Implemente suas melhorias ou correções.
+4. Faça as Suas Modificações: Implemente suas melhorias ou correções.
 
-Commit as Mudanças:
+5. Commit as Mudanças:
 git commit -m 'Adiciona nova feature X'
 
-Push para a Branch:
+6. Push para a Branch:
 git push origin feature/nome-da-feature
 
-Crie um Pull Request: Abra um PR no GitHub.
+7. Crie um Pull Request: Abra um PR no GitHub.
+8. 
+   
 
 🤝 Vamos Conectar!
 Se você gostou deste projeto, não se esqueça de dar uma ⭐️ estrela no repositório! Conecte-se comigo no LinkedIn e vamos construir soluções incríveis juntos!
