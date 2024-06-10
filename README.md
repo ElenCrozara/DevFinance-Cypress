@@ -14,17 +14,17 @@ URL da Aplicação Testada: Dev Finance
 
 🌟 Fluxo de Testes:
 
-Cadastrando Primeira Entrada,
+Cadastrando Primeira Entrada
 
-Cadastrando Primeira Saída,
+Cadastrando Primeira Saída
 
-Excluindo uma Saída,
+Excluindo uma Saída
 
 Criando Várias Transações
 
 
 
-🚀 Instruções para Configuração
+🚀 Instruções para Configuração:
 
 Pré-requisitos
 Node.js instalado
@@ -61,7 +61,7 @@ git commit -m 'Adiciona nova feature X'
 git push origin feature/nome-da-feature
 
 7. Crie um Pull Request: Abra um PR no GitHub.
-8. 
+   
    
 
 🤝 Vamos Conectar!
