@@ -1,0 +1,34 @@
+on:
+    pull_request:
+      branches: [master] 
+  
+jobs:
+    testes-cypress:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v3 
+        - uses: actions/setup-node@v3 
+          with:
+            node-version: 16 
+        - run: npm install 
+        - run: npx cypress install 
+        - run: npx cypress run 
+  
+        # Opcional: Gerar relatório de testes (ex: Mochawesome)
+        # - run: npm run test:report # Comando para gerar o relatório
+  
+        # # Opção 1: Enviar relatório como artefato para download
+        # - uses: actions/upload-artifact@v3
+        #   if: always() 
+        #   with:
+        #     name: relatorio-testes
+        #     path: mochawesome-report # Ou o caminho para a pasta do relatório
+  
+        # # Opção 2: Publicar relatório no GitHub Pages (requer configuração extra)
+        # - name: Deploy to GitHub Pages
+        #   uses: peaceiris/actions-gh-pages@v2
+        #   if: github.ref == 'refs/heads/main'
+        #   with:
+        #     github_token: ${{ secrets.GITHUB_TOKEN }}
+        #     publish_dir: ./mochawesome-report
+  
