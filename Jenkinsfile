@@ -1,14 +1,14 @@
 pipeline {
     agent {
         docker {
-            image 'docker:latest' // Ou qualquer imagem Docker adequada
+            image 'docker:dind' 
         }
     }
     stages {
         stage('Build and Test') {
             steps {
                 script {
-                    def app = docker.build("my-cypress-image") // Nomeie sua imagem
+                    def app = docker.build("my-cypress-image") 
                     app.inside {
                         sh 'npm install'
                         sh 'npm run cy:run'
